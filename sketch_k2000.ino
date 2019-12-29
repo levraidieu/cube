@@ -4,14 +4,14 @@ int pinLed[5]={2, 4, 6, 8, 10}; //Tableau listant les pins
 
 //tableau a double entrée : 25 séquences et l'etat des 5 leds. Premier chiffre les colonnes, 2eme chiffre les leds
 boolean affichage[8][5]={
-  0,0,0,0,0,
-  1,1,1,1,1,
-  0,0,0,0,0,
-  1,1,1,1,1,
-  0,0,0,0,0,
-  1,1,1,1,1,
-  0,0,0,0,0,
-  1,1,1,1,1};
+  1,0,0,0,0,
+  0,1,0,0,0,
+  0,0,1,0,0,
+  0,0,0,1,0,
+  0,0,0,0,1,
+  0,0,0,1,0,
+  0,0,1,0,0,
+  0,1,0,0,0};
 
 
 void setup() {
